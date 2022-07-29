@@ -1,0 +1,44 @@
+.flex-wrapper{
+    display: flex;
+    background-image: url(/images/fairy\ land.jpeg);
+    height: 100px;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 5px;
+}
+
+.one{
+    /* background-color: aqua; */
+    flex: 1; 
+    /* width: 10px; */
+    text-align: center;
+    
+
+}
+.two{
+    /* background-color: black; */
+    color: aliceblue;
+    flex: 2;
+    text-align: center;
+
+}
+.three{
+    /* background-color: aquamarine; */
+    flex: 1;
+    text-align: center;
+}
+
+.four{
+    /* background-color: bisque; */
+    flex: 1;
+    text-align: center;
+
+}
+.five{
+    /* background-color: blanchedalmond; */
+    flex: 2;
+    text-align: center;
+
+}
+
+
