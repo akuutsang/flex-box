@@ -5,7 +5,8 @@ body {
 .container{
     display: flex;
     flex-direction: row;
-    flex: 1;
+    flex: 0 1 0%;
+    /* this is a short hand of writing flex grow, flex shrink and flex basic */
     gap: 10px;
    
 }
@@ -13,26 +14,26 @@ body {
 .one{
     background-color: whitesmoke;
     text-align: center;
-    flex-shrink: 2;
+    /* flex-shrink: 2; */
 }
 .two{
     background-color: bisque;
     text-align: center;
-    flex-shrink: 3;
+    /* flex-shrink: 3; */
 }
 .three{
     background-color: azure;
     text-align: center;
-    flex-shrink: 2;
+    /* flex-shrink: 2; */
 }
 .four{
     background-color: blanchedalmond;
     text-align: center;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
 
 }
 .five{
     background-color: aliceblue;
     text-align: center;
-    flex-shrink: 3;
+    /* flex-shrink: 3; */
 }
