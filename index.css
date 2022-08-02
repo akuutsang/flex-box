@@ -1,44 +1,38 @@
-.flex-wrapper{
+body {
+    background-image: url(/images/head-treasure-flower-disk-flowers-inflorescence-ray.webp);
+}
+
+.container{
     display: flex;
-    background-image: url(/images/fairy\ land.jpeg);
-    height: 100px;
-    flex-wrap: wrap;
+    flex-direction: row;
     flex: 1;
-    gap: 5px;
+    gap: 10px;
+   
 }
 
 .one{
-    /* background-color: aqua; */
-    flex: 1; 
-    /* width: 10px; */
+    background-color: whitesmoke;
     text-align: center;
-    
-
+    flex-shrink: 2;
 }
 .two{
-    /* background-color: black; */
-    color: aliceblue;
-    flex: 2;
+    background-color: bisque;
     text-align: center;
-
+    flex-shrink: 3;
 }
 .three{
-    /* background-color: aquamarine; */
-    flex: 1;
+    background-color: azure;
     text-align: center;
+    flex-shrink: 2;
 }
-
 .four{
-    /* background-color: bisque; */
-    flex: 1;
+    background-color: blanchedalmond;
     text-align: center;
+    flex-shrink: 1;
 
 }
 .five{
-    /* background-color: blanchedalmond; */
-    flex: 2;
+    background-color: aliceblue;
     text-align: center;
-
+    flex-shrink: 3;
 }
-
-
